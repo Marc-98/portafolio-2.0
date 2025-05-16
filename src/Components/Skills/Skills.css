@@ -1,0 +1,89 @@
+.skills{
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 10vw;
+}
+
+
+.skills h1{
+    font-size: 3rem;
+    color: #232155;
+    font-weight: bold;
+}
+.skills .skills-base{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px
+
+}
+.skills .skills-base .skills-box{
+    text-align: start;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0,1);
+    border-radius: 10px;
+}
+html.dark .skills .skills-base .skills-box{
+    border: 1px solid #49478d;
+}
+
+.skills .skills-base .skills-box i{
+    font-size: 2.3rem;
+    color: #3931e1;
+
+}
+.skills .skills-base .skills-box h3{
+    font-size: 1.2rem;
+    color: #232155;
+    padding: 13px 0 7px 0;
+    font-weight: 600;
+}
+
+html.dark .skills .skills-base .skills-box h3{
+    color: #fff;
+}
+
+.skills .skills-base .skills-box p{
+font-weight: 400;
+color: #4a4b6d;
+}
+
+.my-carousel i{
+    font-size: 4rem;
+    width: 250px;
+    margin-top: 80px;
+
+}
+html.dark .my-carousel i{
+    font-size: 4rem;
+    width: 250px;
+    margin-top: 80px;
+}
+
+.my-carousel .fa-react {
+    color: #61dafb;
+}
+.my-carousel .fa-css3-alt {
+    color: #264de4;
+}
+.my-carousel .fa-html5 {
+    color: #e34c26;
+}
+.my-carousel .fa-js {
+    color: #f7df1e;
+}
+.my-carousel .fa-sass {
+    color: #cc6699;
+}
+.my-carousel .fa-wordpress {
+    color: #21759b;
+}
+
+@media (max-width: 768px) {
+    .my-carousel i{
+        font-size: 3rem;
+        width: 100px;
+    }
+}
