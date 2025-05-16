@@ -56,12 +56,6 @@ color: #4a4b6d;
     margin-top: 80px;
 
 }
-html.dark .my-carousel i{
-    font-size: 4rem;
-    width: 250px;
-    margin-top: 80px;
-}
-
 .my-carousel .fa-react {
     color: #61dafb;
 }
