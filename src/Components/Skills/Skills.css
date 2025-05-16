@@ -77,7 +77,7 @@ color: #4a4b6d;
 
 @media (max-width: 768px) {
     .my-carousel i{
-        font-size: 3rem;
+        font-size: 4rem;
         width: 100px;
     }
 }
